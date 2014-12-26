@@ -1,4 +1,4 @@
-![fall](/assets/images/banner.png)
+![fall](/assets/images/fall.png)
 ---
 
 Ambient sound player.
@@ -7,7 +7,8 @@ They say ambient sounds increase productivity and creativity.
 
 ###Screens
 
-![screen](/assets/images/screen.png)
+![dark theme](/assets/images/dark.png)
+![light theme](/assets/images/light.png)
 
 ###Setup
 It is a chrome extension, start here `chrome://extensions`.
