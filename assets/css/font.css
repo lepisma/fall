@@ -1,0 +1,6 @@
+/* Font faces */
+
+@font-face{
+    font-family: "Lane Narrow";
+    src: url("../fonts/LANENAR.ttf") format("truetype");
+}

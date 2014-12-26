@@ -1,0 +1,19 @@
+{
+    "name": "fall",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "ambient sound player",
+    "app": {
+        "background": {
+            "scripts": ["background.js"]        
+        }
+    },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "./assets/images/icon16.png",
+        "48": "./assets/images/icon48.png",
+        "128": "./assets/images/icon128.png"
+    }
+}

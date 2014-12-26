@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    font-family: "Lane Narrow";
+    font-size: 80px;
+    color: #017afd;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+body.light{
+    background-color: white;
+}
+
+#container{
+    padding-bottom: 70px;
+}
+
+#header{
+    width: 100%;
+    background-color: #017afd;
+    height: 6px;
+}
+
+#footShade{
+    position: fixed;
+    z-value: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    box-shadow: 0px 0px 50px 30px rgb(44, 44, 44);
+}
+
+.light #footShade{
+    background-color: white;
+    box-shadow: 0px 0px 50px 30px white;
+}
+
+/*---------- Control Switches ----------*/
+
+#controls{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-value: 1;
+}
+
+.switch{
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#lightSwitch{
+    height: 16px;
+    width: 16px;
+    border-radius: 20px;
+    color: transparent;
+    border-color: #017afd;
+}
+
+.light #lightSwitch:hover{
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+}
+
+#lightSwitch:hover{
+    background-color: white;
+    border-color: white;
+}
+
+#saveButton{
+    border-radius: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(186, 186, 186);
+    border-color: #017afd;
+}
+
+.light #saveButton{
+    color: #017afd;
+}
+
+#saveButton:hover{
+    background-color: #017afd;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#saveButton.notify{
+    background-color: green;
+    color: white;
+}
+
+#muteSwitch{
+    border-radius: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(186, 186, 186);
+    border-color: #017afd;
+}
+
+.light #muteSwitch{
+    color: #017afd;
+}
+
+#muteSwitch:hover{
+    background-color: #017afd;
+    color: white;
+    border-color: transparent;
+}
+
+#muteSwitch.muted{
+    background-color: red;
+    color: white;
+    border-color: transparent;
+}
+
+/*-------- Arranging sections -----------*/
+.soundSection{
+    height: 60px;
+    padding: 20px;
+}
+
+.volControl{
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.soundButton{
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.soundButton.disabled{
+    color: gray;
+}
+
+
+/*----- Changing the slider defaults ------*/
+
+.vertical .range-handle{
+    height: 12px;
+    width: 12px;
+    left: -4px;
+    cursor: pointer;
+}
