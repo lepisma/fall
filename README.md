@@ -1,4 +1,4 @@
-![fall](/assets/images/fall.png)
+![icon](/assets/images/icon128.png)
 ---
 
 Ambient sound player.
